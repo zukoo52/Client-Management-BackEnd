@@ -61,7 +61,7 @@ class ClientManagementController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     *
      */
     public function edit($id)
     {
@@ -69,7 +69,7 @@ class ClientManagementController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     *
      */
     public function update(UpdateClientRequest $request, clients $id)
     {
@@ -87,7 +87,7 @@ class ClientManagementController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     *
      */
     public function destroy( clients $id)
     {
